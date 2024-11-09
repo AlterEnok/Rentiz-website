@@ -69,7 +69,7 @@ a {
 
 /*--------------------/General--------------------*/
 
-html,
+
 body {
     font-family: 'Work Sans', sans-serif;
     background-color: var(--bg-color);
@@ -80,6 +80,10 @@ body {
     &._lock {
         overflow: hidden;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /*-------------------Header---------------*/

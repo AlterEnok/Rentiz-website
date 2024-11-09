@@ -64,7 +64,6 @@ a {
 }
 
 /*--------------------/General--------------------*/
-html,
 body {
   font-family: "Work Sans", sans-serif;
   background-color: var(--bg-color);
@@ -72,9 +71,12 @@ body {
   color: #fff;
   scroll-behavior: smooth;
 }
-html._lock,
 body._lock {
   overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*-------------------Header---------------*/
